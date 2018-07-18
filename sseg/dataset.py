@@ -1,7 +1,7 @@
 import os
 import json
 import torch
-from .utils import data as torchdata
+from .tools import data as torchdata
 import cv2
 from torchvision import transforms
 from scipy.misc import imread, imresize

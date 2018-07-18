@@ -12,9 +12,9 @@ from scipy.io import loadmat
 from .dataset import ValDataset
 from .models import ModelBuilder, SegmentationModule
 from .utils import AverageMeter, colorEncode, accuracy, intersectionAndUnion
-from .lib.nn import user_scattered_collate, async_copy_to
-from .lib.utils import as_numpy, mark_volatile
-from .lib.utils import data as torchdata
+from .nn import user_scattered_collate, async_copy_to
+from .utils import as_numpy, mark_volatile
+from .tools import data as torchdata
 import cv2
 
 

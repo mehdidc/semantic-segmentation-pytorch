@@ -12,8 +12,8 @@ import torch.nn as nn
 from .dataset import TrainDataset
 from .models import ModelBuilder, SegmentationModule
 from .utils import AverageMeter
-from .lib.nn import UserScatteredDataParallel, user_scattered_collate, patch_replication_callback
-from .lib.utils import data as torchdata
+from .nn import UserScatteredDataParallel, user_scattered_collate, patch_replication_callback
+from .tools import data as torchdata
 
 
 # train one epoch
