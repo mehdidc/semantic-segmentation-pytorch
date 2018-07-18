@@ -9,12 +9,12 @@ import torch
 import torch.nn as nn
 from scipy.io import loadmat
 # Our libs
-from dataset import ValDataset
-from models import ModelBuilder, SegmentationModule
-from utils import AverageMeter, colorEncode, accuracy, intersectionAndUnion
-from lib.nn import user_scattered_collate, async_copy_to
-from lib.utils import as_numpy, mark_volatile
-import lib.utils.data as torchdata
+from .dataset import ValDataset
+from .models import ModelBuilder, SegmentationModule
+from .utils import AverageMeter, colorEncode, accuracy, intersectionAndUnion
+from .lib.nn import user_scattered_collate, async_copy_to
+from .lib.utils import as_numpy, mark_volatile
+from .lib.utils import data as torchdata
 import cv2
 
 
